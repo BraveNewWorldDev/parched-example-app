@@ -1,0 +1,10 @@
+@import "../../bower_components/bootstrap-sass/lib/bootstrap"
+
+body
+  background-color: #fff
+
+div
+  //background-color: rgba(#f0f, 0.4)
+  //@extend .btn
+  //@extend .btn-primary
+  //@extend .well

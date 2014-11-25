@@ -1,0 +1,107 @@
+@font-face
+  font-family: 'icons'
+  src: url('/fonts/icons-c7a53240297fce4f5a7bb962ef5d1cb6.eot')
+  src: url('/fonts/icons-c7a53240297fce4f5a7bb962ef5d1cb6.eot') format('embedded-opentype'), url('/fonts/icons-c7a53240297fce4f5a7bb962ef5d1cb6.woff') format('woff'), url('/fonts/icons-c7a53240297fce4f5a7bb962ef5d1cb6.ttf') format('truetype'), url('/fonts/icons-c7a53240297fce4f5a7bb962ef5d1cb6.svg') format('svg')
+  font-weight: normal
+  font-style: normal
+
+%icon-font-base
+  font-family: 'icons'
+  speak: none
+  font-style: normal
+  font-weight: normal
+  font-variant: normal
+  text-transform: none
+  line-height: 1
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.icon-alert
+  @extend %icon-font-base
+  &:before
+    content: "\f101"
+
+.icon-badge-aplus
+  @extend %icon-font-base
+  &:before
+    content: "\f102"
+
+.icon-badge-checkmark
+  @extend %icon-font-base
+  &:before
+    content: "\f103"
+
+.icon-badge-flashlight
+  @extend %icon-font-base
+  &:before
+    content: "\f104"
+
+.icon-badge-glasses
+  @extend %icon-font-base
+  &:before
+    content: "\f105"
+
+.icon-badge-hazard
+  @extend %icon-font-base
+  &:before
+    content: "\f106"
+
+.icon-badge-intro
+  @extend %icon-font-base
+  &:before
+    content: "\f107"
+
+.icon-badge-nut
+  @extend %icon-font-base
+  &:before
+    content: "\f108"
+
+.icon-badge-pencil
+  @extend %icon-font-base
+  &:before
+    content: "\f109"
+
+.icon-badge-people
+  @extend %icon-font-base
+  &:before
+    content: "\f10a"
+
+.icon-badge-steps
+  @extend %icon-font-base
+  &:before
+    content: "\f10b"
+
+.icon-badge-treasure
+  @extend %icon-font-base
+  &:before
+    content: "\f10c"
+
+.icon-check-solo
+  @extend %icon-font-base
+  &:before
+    content: "\f10d"
+
+.icon-checkbox-inner
+  @extend %icon-font-base
+  &:before
+    content: "\f10e"
+
+.icon-checkbox-outer
+  @extend %icon-font-base
+  &:before
+    content: "\f10f"
+
+.icon-lock
+  @extend %icon-font-base
+  &:before
+    content: "\f110"
+
+.icon-throbber-background
+  @extend %icon-font-base
+  &:before
+    content: "\f111"
+
+.icon-throbber
+  @extend %icon-font-base
+  &:before
+    content: "\f112"
