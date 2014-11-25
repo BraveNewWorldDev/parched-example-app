@@ -29,3 +29,5 @@ node_modules/
 public/
 tmp/
 bower_components/
+app/styles/_glyphs.sass
+app/styles/_sprites.sass
