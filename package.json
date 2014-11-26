@@ -11,7 +11,7 @@
     "parched-minify-css": "0.0.1",
     "parched-sass": "0.0.1",
     "parched-svg2png": "0.0.2",
-    "parched-tasks-webapp": "0.0.2",
+    "parched-tasks-webapp": "0.0.4",
     "parched-uglify": "0.0.1",
     "parched-webfont": "0.0.1"
   },
