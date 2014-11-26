@@ -17,10 +17,11 @@ gulp webapp-clean
 gulp webapp-build-all
 
 # Run build task in "production"
+# aka minify, hard errors
 NODE_ENV=production gulp webapp-build-all
 
 # Clean, build, and watch
-gulp webapp-clean && gulp webapp-build-all webapp-watch
+gulp webapp-clean && gulp webapp-watch
 ```
 
 Features
