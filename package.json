@@ -5,15 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "gulp": "^3.8.10",
-    "parched": "0.0.2",
+    "parched": "^0.1.2",
     "parched-coffee-script": "0.0.1",
-    "parched-jade": "0.0.1",
-    "parched-minify-css": "0.0.1",
-    "parched-sass": "0.0.1",
-    "parched-svg2png": "0.0.2",
-    "parched-tasks-webapp": "0.0.5",
-    "parched-uglify": "0.0.1",
-    "parched-webfont": "0.0.1"
+    "parched-jade": "0.0.5",
+    "parched-minify-css": "0.0.2",
+    "parched-sass": "0.0.2",
+    "parched-svg2png": "0.0.3",
+    "parched-tasks-webapp": "0.0.6",
+    "parched-uglify": "0.0.2",
+    "parched-webfont": "0.0.2"
   },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start"
