@@ -1,7 +1,7 @@
 var Parched = require('parched');
 
 // This needs to be called so that all Parched plugins are loaded
-Parched.setup({});
+Parched.setup(require('./Parched-config'));
 
 // This must be required after `Parched.setup()`
 var webappHelpers = require('parched-tasks-webapp/lib/karma-browserify');
