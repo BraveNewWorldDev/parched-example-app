@@ -4,16 +4,16 @@
   "description": "An example web application using parched-tasks-webapp",
   "main": "index.js",
   "dependencies": {
-    "gulp": "^3.8.10",
-    "parched": "^0.1.2",
-    "parched-coffee-script": "0.0.1",
-    "parched-jade": "0.0.5",
-    "parched-minify-css": "0.0.2",
-    "parched-sass": "0.0.2",
-    "parched-svg2png": "0.0.3",
-    "parched-tasks-webapp": "0.0.6",
-    "parched-uglify": "0.0.2",
-    "parched-webfont": "0.0.2"
+    "gulp": "^3.9.0",
+    "parched": "^0.3.0",
+    "parched-coffee-script": "^0.1.1",
+    "parched-jade": "^0.1.2",
+    "parched-minify-css": "^0.1.1",
+    "parched-sass": "^0.1.1",
+    "parched-svg2png": "^0.1.2",
+    "parched-tasks-webapp": "^0.2.4",
+    "parched-uglify": "^0.1.1",
+    "parched-webfont": "^0.1.4"
   },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start"
@@ -27,10 +27,10 @@
   "license": "MIT",
   "devDependencies": {
     "jasmine-core": "^2.1.2",
-    "karma": "^0.12.28",
-    "karma-browserify": "^1.0.0",
-    "karma-chrome-launcher": "^0.1.5",
-    "karma-coffee-preprocessor": "^0.2.1",
+    "karma": "^0.13.9",
+    "karma-browserify": "^4.3.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coffee-preprocessor": "^0.3.0",
     "karma-jasmine": "^0.3.1"
   }
 }

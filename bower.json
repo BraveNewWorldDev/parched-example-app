@@ -17,11 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.1",
-    "bootstrap-sass": "~3.0.2",
-    "bourbon": "3.2.3",
-    "animate-sass": "~0.6.2",
-    "d3": "~3.4.13"
+    "bootstrap-sass": "~3.3.5",
+    "bourbon": "3.2.3"
   },
   "overrides": {
     "bootstrap-sass": {

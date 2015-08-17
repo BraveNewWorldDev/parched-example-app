@@ -5,21 +5,31 @@ module.exports = {
       order: {
         before: [
           /jquery\.js/,
-          /bootstrap\.js/
-        ]
-      }
-    }
+          /bootstrap\.js/,
+        ],
+      },
+    },
   },
 
   plugins: {
+    order: {
+      after: [
+        'parched-imagemin',
+      ],
+    },
+
     'parched-svg2png': {
-      outputCSS: 'app/styles/_sprites.sass',
-      usePlaceholderSelectors: false
+      outputCSS: 'styles/_sprites.sass',
+      usePlaceholderSelectors: false,
     },
 
     'parched-webfont': {
-      outputCSS: 'app/styles/_glyphs.sass',
-      usePlaceholderSelectors: false
+      outputCSS: 'styles/_glyphs.sass',
+      usePlaceholderSelectors: false,
+    },
+
+    'parched-sass': {
+      indentedSyntax: true,
     }
   }
 };

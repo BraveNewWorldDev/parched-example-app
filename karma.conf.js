@@ -4,7 +4,7 @@ var Parched = require('parched');
 Parched.setup(require('./Parched-config'));
 
 // This must be required after `Parched.setup()`
-var webappHelpers = require('parched-tasks-webapp/lib/karma-browserify');
+var webappHelpers = require('parched-tasks-webapp/lib/KarmaUtil');
 
 module.exports = function(config) {
   config.set({
@@ -73,7 +73,7 @@ module.exports = function(config) {
     browserify: {
       debug: true,
       extensions: webappHelpers.getAllExtensions(),
-      prebundle: function (bundle) {
+      configure: function (bundle) {
         webappHelpers.prebundle(bundle);
       }
     },
