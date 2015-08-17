@@ -18,6 +18,10 @@ module.exports = {
       ],
     },
 
+    'parched-babel': {
+      stage: 0,
+    },
+
     'parched-svg2png': {
       outputCSS: 'styles/_sprites.sass',
       usePlaceholderSelectors: false,

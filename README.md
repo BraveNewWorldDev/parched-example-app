@@ -11,17 +11,17 @@ npm install
 bower install
 
 # Run clean task
-gulp webapp-clean
+gulp parched-clean
 
 # Run build task
-gulp webapp-build-all
+gulp parched-build
 
 # Run build task in "production"
 # aka minify, hard errors
-NODE_ENV=production gulp webapp-build-all
+NODE_ENV=production gulp parched-build
 
 # Clean, build, and watch
-gulp webapp-clean && gulp webapp-watch
+gulp parched-clean && gulp parched-watch
 ```
 
 Features

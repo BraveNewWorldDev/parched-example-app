@@ -1,7 +1,13 @@
-var template = require('./view')
+// This view exists to show that jade works in browserify
+// Safe to delete
+import template from './view'
+$(document.getElementsByClassName('jade-example')[0]).html(template())
 
-$(document).on('click', 'button', function () {
-  $('h1').toggleClass('active')
-})
+import React from 'react'
+import App from './components/App'
+//window.React = React
 
-$('.cosmos').html(template())
+React.render(
+  <App />,
+  document.getElementsByClassName('cosmos')[0]
+)

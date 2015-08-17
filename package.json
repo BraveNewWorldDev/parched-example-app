@@ -6,6 +6,7 @@
   "dependencies": {
     "gulp": "^3.9.0",
     "parched": "^0.3.0",
+    "parched-babel": "^0.1.1",
     "parched-coffee-script": "^0.1.1",
     "parched-jade": "^0.1.2",
     "parched-minify-css": "^0.1.1",
@@ -13,7 +14,8 @@
     "parched-svg2png": "^0.1.2",
     "parched-tasks-webapp": "^0.2.4",
     "parched-uglify": "^0.1.1",
-    "parched-webfont": "^0.1.4"
+    "parched-webfont": "^0.1.4",
+    "react": "^0.13.3"
   },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start"
