@@ -15,7 +15,8 @@
     "parched-tasks-webapp": "^0.2.4",
     "parched-uglify": "^0.1.1",
     "parched-webfont": "^0.1.4",
-    "react": "^0.13.3"
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start"
