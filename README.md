@@ -40,3 +40,10 @@ Features
 - Use browserSync in development
 - Stay out of your way
 - Allow you to intervene at pretty much any point
+
+Tests
+-----
+
+```bash
+npm run test
+```
