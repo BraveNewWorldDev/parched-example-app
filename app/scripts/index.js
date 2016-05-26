@@ -1,14 +1,25 @@
-// This view exists to show that jade works in browserify
-// Safe to delete
-import template from './view'
-$(document.getElementsByClassName('jade-example')[0]).html(template())
+// This needs to be first
+import 'react-hot-loader/patch'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
-//window.React = React
+import { AppContainer } from 'react-hot-loader'
 
-ReactDOM.render(
-  <App />,
-  document.getElementsByClassName('cosmos')[0]
-)
+const rootEl = document.getElementById('cosmos')
+
+function renderApp () {
+  // The `require()` here is needed for hot loading.
+  const App = require('./components/App').default
+  ReactDOM.render(
+    <AppContainer>
+      <App />
+    </AppContainer>,
+    rootEl
+  )
+}
+
+renderApp()
+
+if (module.hot) {
+  module.hot.accept('./components/App', renderApp)
+}
